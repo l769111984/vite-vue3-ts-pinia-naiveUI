@@ -25,7 +25,8 @@ export default defineConfig({
       dts: 'src/auto-import.d.ts' // 路径下自动生成文件夹存放全局指令
     }),
     Components({
-      resolvers: [NaiveUiResolver()]
+      resolvers: [NaiveUiResolver()],
+      dts: 'src/components.d.ts',
     })
   ],
   resolve: {
