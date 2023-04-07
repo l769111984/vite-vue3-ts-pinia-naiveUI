@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { useCounterStore } from '@/store'
-import ImgHr from './ImgHr.vue'
 const counter = useCounterStore()
 defineProps<{ msg: string }>()
 
@@ -9,11 +8,6 @@ const handleChangeCounter = () => {
   counter.increment()
 }
 
-const imgHr = ref()
-const handleShow = (text:string) => {
-  console.log('sakshdkja')
-  imgHr.value[text]()
-}
 const inputValue = ref()
 </script>
 
@@ -33,13 +27,6 @@ const inputValue = ref()
     <n-button @click="handleChangeCounter">
       count is {{ counter.count }}
     </n-button>
-    <n-button @click="()=>{handleShow('show')}">
-      出来吧，子组件
-    </n-button> |
-    <n-button @click="()=>{handleShow('cancel')}">
-      隐藏吧，子组件
-    </n-button>
-    <ImgHr ref="imgHr" />
   </div>
 </template>
 
