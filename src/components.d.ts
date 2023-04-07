@@ -11,6 +11,10 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     Mall: typeof import('./components/Mall.vue')['default']
+    NButton: typeof import('naive-ui')['NButton']
+    NEllipsis: typeof import('naive-ui')['NEllipsis']
+    NInput: typeof import('naive-ui')['NInput']
+    NTable: typeof import('naive-ui')['NTable']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
