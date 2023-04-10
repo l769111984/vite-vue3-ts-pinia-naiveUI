@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "pinia": "^2.0.33",
+    "unocss": "^0.51.2",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },

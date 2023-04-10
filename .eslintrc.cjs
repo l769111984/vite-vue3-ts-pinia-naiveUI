@@ -10,7 +10,7 @@ module.exports = {
     'plugin:leon-rule/recommended',
     'plugin:vue/vue3-recommended',
     'plugin:vue/vue3-essential',
-    'standard-with-typescript',
+    '@vue/standard',
     './.eslintrc-auto-import.json'
   ],
   overrides: [

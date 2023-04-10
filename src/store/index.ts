@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 export const useCounterStore = defineStore('counter', () => {
   const count = ref(0)
-  function increment() {
+  function increment () {
     count.value++
     // console.log(count.value)
   }

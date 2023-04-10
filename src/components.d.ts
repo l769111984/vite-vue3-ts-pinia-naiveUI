@@ -13,6 +13,7 @@ declare module '@vue/runtime-core' {
     Mall: typeof import('./components/Mall.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NEllipsis: typeof import('naive-ui')['NEllipsis']
+    NIcon: typeof import('naive-ui')['NIcon']
     NInput: typeof import('naive-ui')['NInput']
     NTable: typeof import('naive-ui')['NTable']
     RouterLink: typeof import('vue-router')['RouterLink']
