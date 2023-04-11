@@ -27,6 +27,7 @@
   </div>
   <HelloWorld msg="Vite + Vue3" />
   <Mall />
+  <Menu />
 </template>
 
 <style scoped>
